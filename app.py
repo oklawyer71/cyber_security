@@ -40,7 +40,7 @@ def visualize_output(prediction_proba):
 
 
 # Title of the web app
-st.title("Cyber Security Monitoring")
+st.title("Cyber Security Monitoring - Heroku")
 
 st.write("This app helps to detect anomalies in domains and inform the user")
 
