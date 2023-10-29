@@ -5,7 +5,7 @@ import numpy as np
 from pycaret.regression import *
 
 model=load_model('kmeans_model')
-
+heroku create myapp --buildpack heroku/python
 
 def user_input_processed(df):
   return df
