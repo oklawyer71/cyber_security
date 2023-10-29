@@ -4,7 +4,7 @@ import numpy as np
 
 from pycaret.regression import *
 
-model=load_model('final_model_14Oct2023')
+model=load_model('kmeans_model')
 
 
 def user_input_processed(df):
@@ -40,9 +40,9 @@ def visualize_output(prediction_proba):
 
 
 # Title of the web app
-st.title("Incident Management SLA predictor")
+st.title("Cyber Security Monitoring")
 
-st.write("This web app predicts the probablity of meeting SLA given the following input parameters")
+st.write("This app helps to detect anomalies in domains and inform the user")
 
 user_input = get_user_input()
 user_input_processed = user_input_processed(user_input)
